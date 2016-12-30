@@ -29,4 +29,4 @@ RUN python2.7 get-pip.py
 RUN pip install awscli
 
 ENTRYPOINT ["docker-entrypoint.sh"]
-CMD ["sh"]
+CMD ["bash"]
